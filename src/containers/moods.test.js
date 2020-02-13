@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import Moods from './Moods.js';
+import Moods from '../containers/Moods';
 
 describe('container', () => {
   it('matches a snapshot', () => {
