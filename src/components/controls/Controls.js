@@ -18,9 +18,7 @@ const Controls = ({ dispatch }) => (
 );
 
 Controls.propTypes = {
-  dispatch: PropTypes.arrayOf(PropTypes.shape({
-    type: PropTypes.string.isRequired,
-  })).isRequired,
+  dispatch: PropTypes.func
 };
 
 export default Controls;
