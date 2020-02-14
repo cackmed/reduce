@@ -1,5 +1,5 @@
 import React from 'react';
-import Moods from '../containers/Moods.js';
+import Moods from '../containers/Moods';
 
 
 export default function App() {
